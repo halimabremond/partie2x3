@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylex3.css"/>
+    <title>Formulaire</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset class="form1">
+          <legend class="form1">Votre identité</legend>
+          <div class="form-id">
+            <label for="firstname">1. Nom: </label>
+            <input type="text" name="firstname" id="firstname" placeholder="Nom" required>
+          </div>
+          <div class="form-id">
+            <label for="lastname">2. Prénom: </label>
+            <input type="lastname" name="lastname" id="lastname" placeholder="Prénom" required>
+          </div>
+          <div class="form-id">
+            <label for="email">3. Adresse émail: </label>
+            <input type="email" name="email" id="email" placeholder="émail" required>
+          </div>
+        </fieldset>
+        <fieldset class="form2">
+          <legend class="form2">Adresse de livraison</legend>
+          <div class="form-adr">
+            <label>1. Adresse:</strong> <textarea class="textarea"></textarea></label>
+          </div>
+          <div class="form-adr">
+            <label for="codepostal">2. Code postal: </label>
+            <input type="text" name="codepostal" id="codepostal" placeholder="Code postal" required>
+          </div>
+          <div class="form-adr">
+            <label for="ville">3. Ville: </label>
+            <input type="ville" name="ville" id="ville" placeholder="Ville" required>
+          </div>
+        </fieldset>
+        <fieldset class="form3">
+          <legend class="form3">Informations de réglement</legend>
+          <div>
+            <label for="type">1. Type de carte bancaire: </label>
+            <div class="radio">
+            <input type="radio" id="visa" name="visa" value="visa">
+            <label for="visa">VISA</label>
+            </div>
+            <div class="radio">
+              <input type="radio" id="mastercard" name="mastercard" value="mastercard">
+              <label for="mastercard">Mastercard</label>
+             </div>
+          </div>
+          <div class="form-inf">
+            <label for="numcarte">2. Numéro de carte: </label>
+            <input type="text" name="numcarte" id="numcarte" placeholder="Numéro de carte" required>
+          </div>
+          <div class="form-inf">
+            <label for="code">3. Code de sécurité: </label>
+            <input type="text" name="code" id="code" placeholder="Code de sécurité" required>
+          </div>
+          <div class="form-inf">
+            <label for="name">3. Nom du titulaire: </label>
+            <input type="text" name="name" id="name" placeholder="Nom du titulaire" required>
+          </div>
+        </fieldset>
+      </form>
+      <button class="button">J'achète!</button>
+</body>
+</html>

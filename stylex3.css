@@ -1,0 +1,66 @@
+form1.form-id {
+    display: table;
+}
+
+div.form-id {
+    display:flex;
+}
+
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+.form1{
+   background-color:cornflowerblue;
+}
+
+.form-adr {
+    display: table;
+}
+
+div.form-adr {
+    display:flex;
+}
+
+
+
+.form2{
+   background-color:purple;
+}
+
+.textarea{
+    height: 60px;
+}
+
+
+ 
+ .form2.form-inf {
+     display: table;
+ }
+ 
+ div.form-inf {
+     display:flex;
+ }
+
+ 
+ .form3{
+    background-color:#d31a4e;
+ }
+ 
+ .radio{
+    display:flex; 
+    margin-left:60px;
+    
+ }
+  
+ .button {
+    background-color: lightgray; 
+    color: black;
+    border-color: lightgrey; 
+  }
